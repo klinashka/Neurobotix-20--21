@@ -1,18 +1,17 @@
 package ro.cnmv.neuro.teamcode.Hardware;
+import ro.cnmv.neuro.teamcode.Assets.PIDCoefficients;
 
 public class PIDF {
+    double loop_time;
+    double P, I=0., D, Pant=0., posAnt=0.;
 
-    double KP;
-    double KI;
-    double KD;
-    double KF;
-
-    //power = KP*P+KI*I+KD*D;
-
-    double P, I, D;
-
-    void update(double error) {
-
-
+    double update(double pos, double error) {
+        P = error;
+        loop_time =  pos-posAnt;
+        I = I + error*loop_time;
+        D = (P-Pant)/loop_time;
+        posAnt = pos;
+        Pant = P;
+        return PIDCoefficients.KP*P+ PIDCoefficients.KI*I+PIDCoefficients.KD*D;
     }
 }

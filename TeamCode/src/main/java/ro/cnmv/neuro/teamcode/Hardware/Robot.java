@@ -13,6 +13,6 @@ public class Robot {
         intake = new Intake(ahwMap);
         outtake = new Outtake(ahwMap);
         imu = new IMU(ahwMap);
-        localization = new Localization();
+        localization = new Localization(ahwMap);
     }
 }

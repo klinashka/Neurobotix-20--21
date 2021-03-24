@@ -19,11 +19,11 @@ public class Localization {
     }
 
     public double getX() {
-        return sensor1.getDistance(DistanceUnit.MM);
+        return sensor2.getDistance(DistanceUnit.MM);
     }
 
     public double getY() {
-        return sensor2.getDistance(DistanceUnit.MM);
+        return FIELD_LENGTH-sensor1.getDistance(DistanceUnit.MM);
     }
 
 }
