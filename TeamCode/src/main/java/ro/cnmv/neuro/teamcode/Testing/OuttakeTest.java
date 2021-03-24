@@ -1,8 +1,8 @@
-package org.firstinspires.ftc.teamcode.Testing;
+package ro.cnmv.neuro.teamcode.Testing;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import org.firstinspires.ftc.teamcode.Hardware.Outtake;
+import ro.cnmv.neuro.teamcode.Hardware.Outtake;
 
 @Autonomous
 public class OuttakeTest extends LinearOpMode {

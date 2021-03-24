@@ -1,8 +1,8 @@
-package org.firstinspires.ftc.teamcode.Testing;
+package ro.cnmv.neuro.teamcode.Testing;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import org.firstinspires.ftc.teamcode.Hardware.Robot;
+import ro.cnmv.neuro.teamcode.Hardware.Robot;
 
 @Autonomous(name="Move/Turn Test", group="Autonomous")
 public class MoveTurnTest extends LinearOpMode {

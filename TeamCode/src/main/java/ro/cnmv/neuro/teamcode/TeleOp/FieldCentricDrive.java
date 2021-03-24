@@ -1,11 +1,11 @@
-package org.firstinspires.ftc.teamcode.TeleOp;
+package ro.cnmv.neuro.teamcode.TeleOp;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
-import org.firstinspires.ftc.teamcode.Hardware.Robot;
+import ro.cnmv.neuro.teamcode.Hardware.Robot;
 
 @TeleOp(name="Field Centric Drive", group="Linear Opmode")
 public class FieldCentricDrive extends LinearOpMode {

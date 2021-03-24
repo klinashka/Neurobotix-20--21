@@ -1,10 +1,10 @@
-package org.firstinspires.ftc.teamcode.Testing;
+package ro.cnmv.neuro.teamcode.Testing;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-import org.firstinspires.ftc.teamcode.Hardware.Robot;
+import ro.cnmv.neuro.teamcode.Hardware.Robot;
 
 @Autonomous(name="Move 2 Sec", group="Autonomous")
 public class Move2Sec extends LinearOpMode {
