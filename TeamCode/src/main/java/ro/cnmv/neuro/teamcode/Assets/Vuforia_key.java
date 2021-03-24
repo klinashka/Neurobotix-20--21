@@ -1,0 +1,5 @@
+package ro.cnmv.neuro.teamcode.Assets;
+
+public class Vuforia_key {
+    public static final String vuf_key = "Ab5XMbT/////AAABma0MU1e3V024gxQ+vLwo9iAWt9i9KJjnu5qiGaIqjdsscSaDUX8xMd8IakcQBj3KdVOtoiCkxDvTLuFOrlWeOh4s1bb/2ggIW2wQlZPgavnfz72SXAbQ4vOsOXn+lL0u2PiYyRpJrLJnYmYrqnRRZeM+OZRT2JXGcZTYJ5jWYwk1807n9DvbW2vWG1nthhNh1BYh3YBGU0fjCRD4vy0CZo0TeORjx2ZhH626+2dmfMilDF52JjFafAG+Cgmp0R4s7F5p0O3xZB23+FRMq1o83NgAbwUCdgVyHWviOl3qIfuMkXGu1csvpsmv/3MDLRpQAgENSp5mo7Ibv1t1uJ3i3jcBs8YuvLccDdAGQpP0fMJ5";
+}

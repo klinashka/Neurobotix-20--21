@@ -85,3 +85,5 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+TeamCode/src/main/java/ro/cnmv/neuro/teamcode/Assets/Vuforia_key.java
